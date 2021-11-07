@@ -1,24 +1,19 @@
 public class Main {
     public static void main(String[] args) {
         for (int i = 0; i <= 20; i++) {
-            System.out.println(i + "");
+            System.out.println(i);
         }
-
-
         for (int i = 6; i >= -6; i -= 2) {
-            System.out.println(i + "");
+            System.out.println(i);
         }
-
         int sum = 0;
         int i = 10;
         do {
-            if (i%2!=0){
-                sum+=i;
+            if (i % 2 != 0) {
+                sum += i;
             }
             i++;
-        } while (i!=20);
-        System.out.print("Сумма нечетных чисел = "+sum);
-
-
+        } while (i != 20);
+        System.out.print("Сумма нечетных чисел = " + sum);
     }
 }
